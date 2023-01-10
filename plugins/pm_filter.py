@@ -617,13 +617,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▣▮ ▯ ▯"
+            text="▮ ▯ ▯"
         )
         await query.message.edit_text(
-            text="▣▮ ▮ ▯"
+            text="▮ ▮ ▯"
         )
         await query.message.edit_text(
-            text="▣▮ ▮ ▮"
+            text="▮ ▮ ▮"
         )       
         await query.message.edit_text(                     
             text=script.HELP_TXT.format(query.from_user.mention),
@@ -850,7 +850,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "deploy":
         buttons = [[
            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Aswin_pm_Bot')
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/syrus_143_hpy')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aswin')
         ]]
