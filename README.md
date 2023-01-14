@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/e265ed0a09295c6077f39.jpg" alt="Elsa">
+  <img src="https://telegra.ph/file/14ea49625341fb27b4df6.jpg" alt="Elsa">
 </p>
 <h1 align="center">
-  <b>Elsa</b>
+  <b>Caliopy</b>
 </h1>
 
 <a href="https://t.me/cinemala_com1">
@@ -140,7 +140,7 @@ python3 bot.py
 * /font - fonts for your text
 * /deletefiles - PreDvD CamRip deletion
 ```
-<b> 😇CREATOR » [Aswin](https://t.me/Aswin_pm_Bot)</b>
+<b> 😇CREATOR » [Sandy](https://t.me/Syrus_143_hpy)</b>
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
