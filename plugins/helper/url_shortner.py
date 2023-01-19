@@ -8,7 +8,7 @@ from pyshorteners import Shortener
 BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092b")
 CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...nEQs")
-GPLINKS_API = os.environ.get("GPLINKS_API", "661ec5ce57026b8dccf06e124def83c22c425f43)
+GPLINKS_API = os.environ.get("GPLINKS_API", "b0ee7d1fda4422c62f402fd0abfb89fd7e74224e)
 
 reply_markup = InlineKeyboardMarkup(
         [[
@@ -162,15 +162,15 @@ async def short(link):
     
     # GPLinks shorten
     try:
-        api_url = "https://gplinks.in/api"
+        api_url = "https://ez4short.com/api" 
         params = {'api': GPLINKS_API, 'url': link}
         async with aiohttp.ClientSession() as session:
             async with session.get(api_url, params=params, raise_for_status=True) as response:
                 data = await response.json()
                 url = data["shortenedUrl"]
-                shorten_urls += f"\n**GPLinks.in :-** {url}"
+                shorten_urls += f"\n**ez4short.com :-** {url}"
     except Exception as error:
-        print(f"GPLink error :- {error}")
+        print(f"Ez4short error :- {error}")
     
     # Send the text
     try:
