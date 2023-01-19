@@ -8,7 +8,7 @@ from pyshorteners import Shortener
 BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092b")
 CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
-GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
+GPLINKS_API = os.environ.get("GPLINKS_API", "661ec5ce57026b8dccf06e124def83c22c425f43)
 
 reply_markup = InlineKeyboardMarkup(
         [[
