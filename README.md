@@ -5,7 +5,7 @@
   <b>Caliopy</b>
 </h1>
 
-<a href="https://t.me/cinemala_com1">
+<a href="https://t.me/Filmy_men">
   <img src="https://img.shields.io/badge/Join-blue?logo=telegram" width="70">
 
 [![Stars](https://img.shields.io/github/stars/Devil-Botz/Elsa?style=flat-square&color=yellow)](https://github.com/Devil-Botz/Elsa/stargazers)
