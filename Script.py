@@ -9,18 +9,18 @@ class script(object):
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ ʟᴏᴠᴇ❤: <a href=https://t.me/Syrus_143_hpy>❤</a>
-✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/Filmy_men>ғɪʟᴍʏ ᴍᴇɴ</a>
-✯ ᴍʏ ʜᴜsʙᴀɴᴅ: <a href=https://t.me/Syrus_143_hpy>亗 𝗧𝗛𝗘 𝗦𝗔𝗡ᕲ𝗠𝗔𝗡</a>
-✯ ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ
-✯ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 𝟹
-✯ ᴅᴀᴛᴀʙᴀsᴇ: ᴍᴏɴɢᴏᴅʙ
-✯ sᴇʀᴠᴇʀ: ᴘʀᴠᴛ
-✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: v2.0.1 [ ʙᴇᴛᴀ ]</b>"""
+✯ ᴍʏ ʟᴏᴠᴇ: <a href=https://t.me/Mister_Ash>ᴍʏ ᴏᴡɴᴇʀ🥰</a>
+✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/The_Happy_Hour_Hindi>𝙏𝙝𝙚 𝙃𝙖𝙥𝙥𝙮 𝙃𝙤𝙪𝙧™</a>
+✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=https://t.me/Mister_Ash>𝘼𝙨𝙝 𝙆𝙚𝙩𝙘𝙝𝙪𝙢</a>
+✯ ʟɪʙʀᴀʀʏ: ɴᴏ ɪᴅᴇᴀ
+✯ ʟᴀɴɢᴜᴀɢᴇ: ʜɪɴᴅɪ 🇮🇳
+✯ ᴅᴀᴛᴀʙᴀsᴇ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
+✯ sᴇʀᴠᴇʀ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
+✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: ᴀᴄᴛɪᴠᴇ ✅</b>"""
 
     SOURCE_TXT = """<b>NOTE:</b>
-<b>- ɢᴀᴀɴᴅ ᴍᴀʀᴀᴏ ʙsᴅᴋ. 
-- 𝚂𝙾𝚄𝚁𝙲𝙴 -<a href=https://t.me/syrus_143_hpy>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ</a>"""
+<b>- ɢᴀᴀɴᴅ ᴍᴀʀᴀᴏ ʙsᴅᴋ 😝
+- 𝚂𝙾𝚄𝚁𝙲𝙴 - <a href=https://t.me/Mister_Ash>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ 🤪</a>"""
 
 
 
@@ -177,7 +177,7 @@ To Get Sticker ID
 <b>COMMAND</b> : /font your text (optional)
         <b> Eg:- /font Hello</b>
 
- <i>This feature added by @FILMY_MEN"""
+ <i>This feature added by The Happy Hour"""
     JSON_TXT = """<b>JSON:</b>
 Bot returns json for all replied messages with /json or /js
 <b>Features:</b>
@@ -292,15 +292,12 @@ Name - {}
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+    CUSTOM_FILE_CAPTION = """<code>{file_name}</code>
 
-
-
-╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-▫️<a href=https://t.me/Filmy_Men> ᴄʜᴀɴɴᴇʟ </a>
-
-▫️<a href=https://t.me/Filmy_Rog>ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ</a>
-╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
+════════※ ·❆· ※════════
+▫️ <b>Cʜᴀɴɴᴇʟ</b> : <a href="https://t.me/The_Happy_Hour_Hindi">𝐓𝐡𝐞 𝐇𝐚𝐩𝐩𝐲 𝐇𝐨𝐮𝐫™</a>
+▫️ <b>Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ</b> : <a href="https://t.me/Happy_Hour_Friends">𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞</a>
+════════※ ·❆· ※════════"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
@@ -320,7 +317,7 @@ Merry Christmas ❄️ and Happy New Year 🎇</b>"""
 
     TOP_ALRT_MSG = """♻️ ᴄʜᴇᴄᴋɪɴɢ ꜰɪʟᴇ ᴏɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ... ♻️"""
 
-    MVE_NT_FND = """<b>𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴</b> """
+    MVE_NT_FND = """𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴"""
 
     NORSLTS = """★ #𝗡𝗼𝗥𝗲𝘀𝘂𝗹𝘁𝘀 ★
 𝗜𝗗 <b>: {}</b>
