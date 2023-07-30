@@ -48,13 +48,13 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/14ea49625341fb27b4df6.jpg')).split()
-NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/356650716aeb2344fa985.jpg")
-SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/3675ce6c5f511cc867ec7.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/a66a4ad88fd5944c45145.jpg')).split()
+NOR_IMG = environ.get('NOR_IMG', "https://graph.org/file/a66a4ad88fd5944c45145.jpg")
+SPELL_IMG = environ.get('SPELL_IMG',"https://graph.org/file/a66a4ad88fd5944c45145.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/25c2ee07b3638d2005658.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/b04dd068fc8e2c2235f8d.mp4")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://graph.org/file/a66a4ad88fd5944c45145.jpg")
+MELCOW_VID = environ.get('MELCOW_VID',"https://graph.org/file/a66a4ad88fd5944c45145.jpg")
 
 
 
@@ -86,21 +86,21 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
-MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/Filmy_Rog")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Filmy_men")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+F805GdOXO1JlOWU9")
-MSG_ALRT = environ.get('MSG_ALRT', '𝗣𝗿𝗲𝘀𝗵𝗮𝗻 𝗠𝗮𝘁 𝗞𝗿 𝗕𝗰')
+MAX_BTN = int(environ.get('MAX_BTN', "8"))
+S_GROUP = environ.get('S_GROUP',"https://t.me/Happy_Hour_Friends")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/The_Happy_Hour_Hindi")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+RvUCPPCaz9g5MGZl")
+MSG_ALRT = environ.get('MSG_ALRT', '👉 परेशान मत कर BSDK....🤬')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Filmy_Rog')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Happy_Hour_Friends')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CUSTOM_FILE_CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE","<b>Your Query: {query}</b> \n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> |•| 10 \n\n💛 Please Share Us 💛\n\n‌‌‌‌Powered by: @FILMY_MEN")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE","<b>🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> | 10 \n\n<a href=https://t.me/The_Happy_Hour_Hindi>❤️ Please Share & Support ❤️</a>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
