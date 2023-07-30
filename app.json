@@ -1,7 +1,7 @@
 {
     "name": "fm sandy",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://telegra.ph/file/512fbbf7ed7af92915863.jpg",
+    "logo": "https://graph.org/file/a66a4ad88fd5944c45145.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -16,19 +16,22 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/SANDY-FM/CALOPY-SANDY",
-    "repository": "https://github.com/SANDY-FM/CALOPY-SANDY",
+    "website": "https://github.com/iwhiwh/aaaaaaaaaa",
+    "repository": "https://github.com/iwhiwh/aaaaaaaaaa",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+"value":"6027834135:AAHqW7KmTaOiKW7zq67LRkohYmHHNTBehRw",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+"value":"24579842",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+"value":"ec6105bf1a02c98f837300546dc341d1",
             "required": true
         },
         "CHANNELS": {
@@ -37,14 +40,17 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+"value":"1991522624",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+"value":"https://graph.org/file/a66a4ad88fd5944c45145.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+"value":"-1001912840788",
             "required": true
         },
         "AUTH_USERS": {
@@ -57,10 +63,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+"value":"mongodb+srv://jk4:jk4@cluster0.smypden.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+"value":"cluster0",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -70,10 +78,12 @@
         },
         "FILE_CHANNEL": {
             "description": "File REDIRECT TO , give Channel id for redirect file eg:-100xxxxxxx.",
+"value":"-1001867538832",
             "required": true
         },
         "DELETE_CHANNELS": {
              "description": "Delete Multiple files from db, channel id -100xxxxxxxx.",
+"value":"-1001825888583",
              "required": true
         }
     },
