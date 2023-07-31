@@ -617,10 +617,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="😉 😘 😘"
+            text="😉"
         )
         await query.message.edit_text(
-            text="😉 😉 😘"
+            text="😉 😉"
         )
         await query.message.edit_text(
             text="😉 😉 😉"
@@ -648,10 +648,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="😉 😘 😘"
+            text="😉"
         )
         await query.message.edit_text(
-            text="😉 😉 😘"
+            text="😉 😉"
         )
         await query.message.edit_text(
             text="😉 😉 😉"
@@ -673,10 +673,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="😉 😘 😘"
+            text="😉"
         )
         await query.message.edit_text(
-            text="😉 😉 😘"
+            text="😉 😉"
         )
         await query.message.edit_text(
             text="😉 😉 😉"
@@ -961,7 +961,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "rfrsh":
-        await query.answer("𝙁𝙚𝙩𝙘𝙝𝙞𝙣𝙜 𝙈𝙤𝙣𝙜𝙤𝘿𝙗 𝘿𝙖𝙩𝙖𝘽𝙖𝙨𝙚")
+        await query.answer("👉 परेशान मत कर BSDK.....🤬")
         buttons = [[
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ʀᴇғʀᴇsʜ', callback_data='rfrsh')
