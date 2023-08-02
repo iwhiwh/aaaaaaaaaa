@@ -1156,7 +1156,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b><i>ᴛɪᴛʟᴇ : {search}\nʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}\nɢʀᴏᴜᴘ : <a href=https://t.me/Happy_Hour_Friends>The Happy Hour™</a></i></b>"
+        cap = f"<b><i>ᴛɪᴛʟᴇ : {search}\nʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}\nᴍᴀɪɴ ɢʀᴏᴜᴘ : <a href=https://t.me/Happy_Hour_Friends>The Happy Hour™</a></i></b>"
     if imdb and imdb.get('poster'):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
