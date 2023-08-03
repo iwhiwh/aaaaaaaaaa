@@ -292,7 +292,11 @@ Name - {}
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<a href="https://t.me/The_Happy_Hour_Hindi"><b>{file_name}</b></a>"""
+    CUSTOM_FILE_CAPTION = """/set <a href="https://t.me/The_Happy_Hour_Hindi"><b>{file_caption}</b></a>
+
+════════※ ·❆· ※════════
+<a href="https://t.me/Happy_Hour_Friends"><b>ㅤㅤ▫️Mᴏᴠɪᴇ Rᴇǫ Gʀᴏᴜᴘ▫️</b></a>
+════════※ ·❆· ※════════"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
