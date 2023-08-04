@@ -134,7 +134,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"♡ [{get_size(file.file_size)}] {file.file_caption}", callback_data=f'files#{file.file_id}'
+                    text=f"♡ [{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -143,7 +143,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"♡{file.file_caption}", callback_data=f'files#{file.file_id}'
+                    text=f"♡{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
                     text=f"♡ {get_size(file.file_size)}",
@@ -702,7 +702,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='@Happy_Hour_Friends'),
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1076,7 +1076,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"❍ [{get_size(file.file_size)}] {file.file_caption}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"❍ [{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
