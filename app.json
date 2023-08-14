@@ -83,7 +83,7 @@
         },
         "DELETE_CHANNELS": {
              "description": "Delete Multiple files from db, channel id -100xxxxxxxx.",
-"value":"-1001825888583",
+"value":"-1001966591245",
              "required": true
         }
     },
