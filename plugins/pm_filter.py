@@ -493,7 +493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("हमे पता है तुम स्मार्ट हो 😬 But हम से स्मार्ट इस दुनिया में कोइ नई हैं।😎", show_alert=True)
+            await query.answer("हमे पता है तुम स्मार्ट हो 😬 But हम से स्मार्ट इस दुनिया में कोइ नई हैं।😎 पहले चैनल जॉइन करो तभी फाइल मिलेगा....🥲", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -702,7 +702,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com'),
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/The_Happy_Hour_Hindi'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1156,7 +1156,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b><i>ᴛɪᴛʟᴇ : {search}\nʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}\nᴍᴀɪɴ ɢʀ : <a href=https://t.me/Happy_Hour_Friends>The Happy Hour™</a></i></b>"
+        cap = f"<b><i>ᴛɪᴛʟᴇ : {search}\nʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}\nᴄʜᴀɴɴᴇʟ : <a href=https://t.me/The_Happy_Hour_Hindi>The Happy Hour™</a></i></b>"
     if imdb and imdb.get('poster'):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
