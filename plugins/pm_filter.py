@@ -564,7 +564,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("👉 आपको सिर्फ मूवी का नाम लिखना है....🙃\n\nमूवी का नाम गूगल से कॉपी करके लिखे....✅", show_alert=True)
 
     elif query.data == "sinfo":
-        await query.answer("👉 आपको कोई Web Series चाइए तो इस तरह लेखकर भेजे....😺\n\n\nMoney Hiest S01\nMoney Hiest S02E05\nKota Fectory S02", show_alert=True)      
+        await query.answer("👉 आपको कोई Web Series चाइए तो इस तरह लेखकर भेजे....😺\n\nMoney Hiest S01\nMoney Hiest S02E05\nKota Fectory S02", show_alert=True)      
 
     elif query.data == "tinfo":
         await query.answer("👇 ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴄʀᴇᴀᴇᴛᴇᴅ ʙʏ 👇 \n\n🇮🇳 ᴛʜᴇ ʜᴀᴘᴘʏ ʜᴏᴜʀ 🇮🇳", show_alert=True)
@@ -585,7 +585,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('× ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ×', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='https://t.me/Mister_Ash')
+            InlineKeyboardButton('ᴏᴡɴ ɪɴғᴏ', url='tg://openmessage?user_id=1991522624')
         ], [
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
@@ -850,7 +850,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "deploy":
         buttons = [[
            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/The_Happy_Hour_Hindi'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Mister_Ash')
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='tg://openmessage?user_id=1991522624')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='aswin')
         ]]
@@ -1156,7 +1156,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b><i>ᴛɪᴛʟᴇ : {search}\nʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}\nᴄʜᴀɴɴᴇʟ : <a href=https://t.me/The_Happy_Hour_Hindi>The Happy Hour™</a></i></b>"
+        cap = f"<b><i>ᴛɪᴛʟᴇ : {search}\nʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ : {message.from_user.mention}\nᴄʜᴀɴɴᴇʟ : <a href=https://t.me/The_Happy_Hour_Hindi>ᴛʜᴇ ʜᴀᴘᴘʏ ʜᴏᴜʀ™</a></i></b>"
     if imdb and imdb.get('poster'):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
