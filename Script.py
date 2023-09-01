@@ -11,7 +11,7 @@ class script(object):
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ ᴍʏ ʟᴏᴠᴇ: <a href=tg://openmessage?user_id=1991522624>ᴍʏ ᴏᴡɴᴇʀ🥰</a>
 ✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/The_Happy_Hour_Hindi>ᴛʜᴇ ʜʜᴀᴘᴘʏ ʜᴏᴜʀ™</a>
-✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=https://t.me/tg://openmessage?user_id=1991522624>𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a>
+✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=tg://openmessage?user_id=1991522624>𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a>
 ✯ ʟɪʙʀᴀʀʏ: ɴᴏ ɪᴅᴇᴀ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ʜɪɴᴅɪ 🇮🇳
 ✯ ᴅᴀᴛᴀʙᴀsᴇ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
