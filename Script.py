@@ -9,18 +9,16 @@ class script(object):
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ ᴍʏ ʟᴏᴠᴇ: <a href=https://t.me/Mister_Ash>ᴍʏ ᴏᴡɴᴇʀ🥰</a>
+✯ ᴍʏ ʟᴏᴠᴇ: <a href=tg://openmessage?user_id=1991522624>ᴍʏ ᴏᴡɴᴇʀ🥰</a>
 ✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/The_Happy_Hour_Hindi>ᴛʜᴇ ʜʜᴀᴘᴘʏ ʜᴏᴜʀ™</a>
-✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=https://t.me/Master_Jiraya>𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a>
+✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=https://t.me/tg://openmessage?user_id=1991522624>𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a>
 ✯ ʟɪʙʀᴀʀʏ: ɴᴏ ɪᴅᴇᴀ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ʜɪɴᴅɪ 🇮🇳
 ✯ ᴅᴀᴛᴀʙᴀsᴇ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
 ✯ sᴇʀᴠᴇʀ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
 ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: ᴀᴄᴛɪᴠᴇ ✅</b>"""
 
-    SOURCE_TXT = """<b>NOTE:</b>
-<b>- ɢᴀᴀɴᴅ ᴍᴀʀᴀᴏ ʙsᴅᴋ 😝
-- 𝚂𝙾𝚄𝚁𝙲𝙴 - <a href=https://t.me/Mister_Ash>ɴʜɪ ᴅᴜɴɢᴀ ʙsᴅᴋ 🤪</a>"""
+    SOURCE_TXT = """<a href=tg://openmessage?user_id=1991522624>𝗧𝗵𝗶𝘀 𝗥𝗲𝗽𝗼 𝗶𝘀 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆 𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮.....</a>"""
 
 
 
