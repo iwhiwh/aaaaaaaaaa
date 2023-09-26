@@ -9,16 +9,15 @@ class script(object):
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ ᴍʏ ʟᴏᴠᴇ: <a href=tg://openmessage?user_id=1991522624>ᴍʏ ᴏᴡɴᴇʀ🥰</a>
-✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/The_Happy_Hour_Hindi>ᴛʜᴇ ʜʜᴀᴘᴘʏ ʜᴏᴜʀ™</a>
-✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=tg://openmessage?user_id=1991522624>𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a>
+✯ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ: <a href=https://t.me/>ᴛʜᴇ ʜʜᴀᴘᴘʏ ʜᴏᴜʀ™</a>
+✯ ᴍʏ ᴏᴡɴᴇʀ: <a href=hhttps://t.me/>𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a>
 ✯ ʟɪʙʀᴀʀʏ: ɴᴏ ɪᴅᴇᴀ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ʜɪɴᴅɪ 🇮🇳
 ✯ ᴅᴀᴛᴀʙᴀsᴇ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
 ✯ sᴇʀᴠᴇʀ: ꜰʀᴇᴇ ᴠᴀʟᴀ 🤫
 ✯ ʙᴜɪʟᴅ sᴛᴀᴛᴜs: ᴀᴄᴛɪᴠᴇ ✅</b>"""
 
-    SOURCE_TXT = """<a href=tg://openmessage?user_id=1991522624>𝗧𝗵𝗶𝘀 𝗥𝗲𝗽𝗼 𝗶𝘀 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆 𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮.....</a>"""
+    SOURCE_TXT = """<a href=hattps://t.me/>𝗧𝗵𝗶𝘀 𝗥𝗲𝗽𝗼 𝗶𝘀 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗕𝘆 𝗠𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮.....</a>"""
 
 
 
@@ -290,11 +289,7 @@ Name - {}
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<a href="https://t.me/The_Happy_Hour_Hindi"><b>{file_name}</b></a>
-
-════════※ ·❆· ※════════
-<a href="https://t.me/Happy_Hour_Friends"><b>ㅤㅤ▫️Mᴏᴠɪᴇ Rᴇǫ Gʀᴏᴜᴘ▫️</b></a>
-════════※ ·❆· ※════════"""
+    CUSTOM_FILE_CAPTION = """<b>{file_name}</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
