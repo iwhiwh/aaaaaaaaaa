@@ -123,6 +123,6 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 #Verify Features
 VERIFY = bool(environ.get('VERIFY', False))
-HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/HOW_TO_DOWNLOADDS/3")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'urlshortx.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'bd623f374b3619df1ba74033b235d872b9254d6d')
+HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/Kvxohcphcp/3")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'cuty.io')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'd3f0c1fc80abd229ada4ba313')
