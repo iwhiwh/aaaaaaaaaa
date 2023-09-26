@@ -89,7 +89,7 @@ PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "5"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/Happy_Hour_Friends")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/The_Happy_Hour_Hindi")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/Kvxohcphcp")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+RvUCPPCaz9g5MGZl")
 MSG_ALRT = environ.get('MSG_ALRT', '👉 परेशान मत कर BSDK....🤬')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
@@ -122,7 +122,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 
 #Verify Features
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 HOW_TO_VERIFY = environ.get("HOW_TO_VERIFY", "https://t.me/Kvxohcphcp/3")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'cuty.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd3f0c1fc80abd229ada4ba313')
