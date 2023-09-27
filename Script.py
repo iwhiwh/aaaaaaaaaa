@@ -278,15 +278,9 @@ Name - {}
 
     IMDB_TEMPLATE_TXT = """
 <b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
-
 🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
-
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
-
-©{message.chat.title}</b>
+🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10
+📆 ʏᴇᴀʀ : {release_date}</b>
 """
 
     CUSTOM_FILE_CAPTION = """<b>{file_name}</b>"""
