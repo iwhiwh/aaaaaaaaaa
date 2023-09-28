@@ -154,7 +154,7 @@ async def next_page(bot, query):
 #        ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' 👇 {search} 👇 ', 'qinfo')
+            InlineKeyboardButton(f' 🌺 {search} 🌺 ', 'qinfo')
         ]
     )
     btn.insert(1, 
@@ -551,18 +551,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "pages":
         await query.answer()
-
-    elif query.data == "reqinfo":
-        await query.answer("👉 10 मिनिट बाद ये मैसेज अपने आप डिलीट हो जाएगा....🥲😁", show_alert=True)
-
-    elif query.data == "minfo":
-        await query.answer("👉 आपको सिर्फ मूवी का नाम लिखना है....🙃\n\nमूवी का नाम गूगल से कॉपी करके लिखे....✅", show_alert=True)
-
-    elif query.data == "sinfo":
-        await query.answer("👉 आपको कोई Web Series चाइए तो इस तरह लेखकर भेजे....😺\n\nMoney Hiest S01\nMoney Hiest S02E05\nKota Fectory S02", show_alert=True)      
-
-    elif query.data == "tinfo":
-        await query.answer("👇 ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴄʀᴇᴀᴇᴛᴇᴅ ʙʏ 👇 \n\n🇮🇳 ᴛʜᴇ ʜᴀᴘᴘʏ ʜᴏᴜʀ 🇮🇳", show_alert=True)
 
     elif query.data == "surprise": 
         btn = [[
@@ -1092,7 +1080,7 @@ async def auto_filter(client, msg, spoll=False):
 #        ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' 👇 {search} 👇 ', 'qinfo')
+            InlineKeyboardButton(f' 🌺 {search} 🌺 ', 'qinfo')
         ]
     )
     btn.insert(1, 
